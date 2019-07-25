@@ -14,6 +14,8 @@
 				<div class="header-left">
 					<div class="header-left-logo">
 						<img src="img/avatar_io.jpg" alt="">
+						<div class="stascrivendo">
+						</div>
 					</div>
 					<div class="header-left-icons">
 						<i class="fas fa-circle-notch"></i>
@@ -37,7 +39,7 @@
 					<input id="contacts-filter" class="left-searchbar-input" placeholder="Cerca o inizia una nuova chat" name="search">
 				</div>
 				<div class="contacts">
-					<div class="contact active" data-conversazione="0">
+					<div refchat="chat1" class="contact active" data-conversazione="0">
 						<div class="contact-logo">
 							<img src="img/avatar_1.jpg" alt="">
 						</div>
@@ -49,7 +51,7 @@
 							<small>Non poteva essere altrimenti</small>
 						</div>
 					</div>
-					<div class="contact" data-conversazione="1">
+					<div refchat="chat2" class="contact" data-conversazione="1">
 						<div class="contact-logo">
 							<img src="img/avatar_2.jpg" alt="">
 						</div>
@@ -61,7 +63,7 @@
 							<small>Non poteva essere altrimenti</small>
 						</div>
 					</div>
-					<div class="contact" data-conversazione="2">
+					<div refchat="chat3" class="contact" data-conversazione="2">
 						<div class="contact-logo">
 							<img src="img/avatar_3.jpg" alt="">
 						</div>
@@ -73,7 +75,7 @@
 							<small>Non poteva essere altrimenti</small>
 						</div>
 					</div>
-					<div class="contact" data-conversazione="3">
+					<div refchat="chat4" class="contact" data-conversazione="3">
 						<div class="contact-logo">
 							<img src="img/avatar_4.jpg" alt="">
 						</div>
@@ -85,7 +87,7 @@
 							<small>Non poteva essere altrimenti</small>
 						</div>
 					</div>
-					<div class="contact" data-conversazione="4">
+					<div refchat="chat5" class="contact" data-conversazione="4">
 						<div class="contact-logo">
 							<img src="img/avatar_5.jpg" alt="">
 						</div>
@@ -97,7 +99,7 @@
 							<small>Non poteva essere altrimenti</small>
 						</div>
 					</div>
-					<div class="contact" data-conversazione="5">
+					<div refchat="chat6" class="contact" data-conversazione="5">
 						<div class="contact-logo">
 							<img src="img/avatar_6.jpg" alt="">
 						</div>
@@ -109,7 +111,7 @@
 							<small>Non poteva essere altrimenti</small>
 						</div>
 					</div>
-					<div class="contact" data-conversazione="6">
+					<div refchat="chat7" class="contact" data-conversazione="6">
 						<div class="contact-logo">
 							<img src="img/avatar_7.jpg" alt="">
 						</div>
@@ -121,7 +123,7 @@
 							<small>Non poteva essere altrimenti</small>
 						</div>
 					</div>
-					<div class="contact" data-conversazione="7">
+					<div refchat="chat8" class="contact" data-conversazione="7">
 						<div class="contact-logo">
 							<img src="img/avatar_8.jpg" alt="">
 						</div>
@@ -139,7 +141,7 @@
 				<div class="header-right">
 					<div class="header-right-logo">
 						<img src="img/avatar_1.jpg" alt="">
-						<h3><span id="header-right-contact-name">Michele</span> <br> <small class="time">Ultimo accesso oggi alle 15.40</small></h3>
+						<h3><span id="header-right-contact-name" class="contact-name">Michele</span> <br> <small class="time">Ultimo accesso oggi alle 15.40</small></h3>
 					</div>
 					<div class="header-right-icons">
 						<i class="fas fa-search"></i>
@@ -149,21 +151,21 @@
 				</div>
 				<div class="right-messages-container" >
 					<!-- inseriamo a mano i vari pannelli per la versione base -->
-					<div class="right-messages active" data-conversazione="0">
+					<div refchat="chat1" class="right-messages active" data-conversazione="0">
 					</div>
-					<div class="right-messages" data-conversazione="1">
+					<div refchat="chat2" class="right-messages" data-conversazione="1">
 					</div>
-					<div class="right-messages" data-conversazione="2">
+					<div refchat="chat3" class="right-messages" data-conversazione="2">
 					</div>
-					<div class="right-messages" data-conversazione="3">
+					<div refchat="chat4" class="right-messages" data-conversazione="3">
 					</div>
-					<div class="right-messages" data-conversazione="4">
+					<div refchat="chat5" class="right-messages" data-conversazione="4">
 					</div>
-					<div class="right-messages" data-conversazione="5">
+					<div refchat="chat6" class="right-messages" data-conversazione="5">
 					</div>
-					<div class="right-messages" data-conversazione="6">
+					<div refchat="chat7" class="right-messages" data-conversazione="6">
 					</div>
-					<div class="right-messages" data-conversazione="7">
+					<div refchat="chat8" class="right-messages" data-conversazione="7">
 					</div>
 				</div>
 				<div class="right-footer">
@@ -172,6 +174,7 @@
 					</div>
 					<input class="new-message-inputs" placeholder="Scrivi un messaggio">
 					<div class="right-footer-icon f-right">
+						<i class="fas fa-paper-plane" aria-hidden="true"></i>
 						<i class="fa fa-microphone" aria-hidden="true"></i>
 					</div>
 				</div>

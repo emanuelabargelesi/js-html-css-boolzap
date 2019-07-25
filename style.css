@@ -333,3 +333,13 @@ body {
   width: 150px;
   border-radius: 3em;
 }
+
+/* AGGIUNGO AEROPLANINO D'INVIO */
+.fa-paper-plane {
+	display: none;
+	margin-top: 25px;
+}
+/* AGGIUNGO PER STA SCRIVENDO */
+.stascrivendo {
+	display: flex;
+}
